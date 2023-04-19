@@ -1,0 +1,225 @@
+2023-01-14 08:52:11.470 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-14 08:52:11.803 +03:00 [INF] Now listening on: https://localhost:7282
+2023-01-14 08:52:11.809 +03:00 [INF] Now listening on: http://localhost:5282
+2023-01-14 08:52:11.813 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 08:52:11.813 +03:00 [INF] Hosting environment: Development
+2023-01-14 08:52:11.813 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-01-14 08:52:13.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 08:52:13.325 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:52:13.503 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 08:52:13.531 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 08:52:14.232 +03:00 [INF] Executed ViewResult - view Index executed in 704.1419ms.
+2023-01-14 08:52:14.250 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 745.9729ms
+2023-01-14 08:52:14.252 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:52:14.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 1196.1992ms
+2023-01-14 08:52:14.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-14 08:52:14.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-14 08:52:14.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - -
+2023-01-14 08:52:14.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/jquery/dist/jquery.min.js - -
+2023-01-14 08:52:14.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-14 08:52:14.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-14 08:52:14.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:52:14.549 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\css\site.css'
+2023-01-14 08:52:14.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 18.2624ms
+2023-01-14 08:52:14.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 9.2231ms
+2023-01-14 08:52:14.558 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\js\site.js'
+2023-01-14 08:52:14.558 +03:00 [INF] Sending file. Request path: '/OnlineBalance.styles.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\obj\Debug\net6.0\scopedcss\bundle\OnlineBalance.styles.css'
+2023-01-14 08:52:14.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 15.9769ms
+2023-01-14 08:52:14.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - - - 200 1130 text/css 21.4017ms
+2023-01-14 08:52:14.587 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-14 08:52:14.588 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 151.4560ms
+2023-01-14 08:52:14.632 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-14 08:52:14.632 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-14 08:52:14.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 94.4625ms
+2023-01-14 08:52:14.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 90.9690ms
+2023-01-14 08:52:14.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:52:14.768 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 120.8682ms
+2023-01-14 08:52:14.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-01-14 08:52:14.983 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-01-14 08:52:14.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 200 5430 image/x-icon 7.2868ms
+2023-01-14 08:52:19.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth - -
+2023-01-14 08:52:19.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth - - - 404 0 - 4.1589ms
+2023-01-14 08:52:28.747 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-01-14 08:52:28.750 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 08:52:28.777 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-01-14 08:52:28.791 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-01-14 08:52:28.875 +03:00 [INF] Executed ViewResult - view Signup executed in 85.3013ms.
+2023-01-14 08:52:28.876 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 97.9ms
+2023-01-14 08:52:28.876 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 08:52:28.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 131.3178ms
+2023-01-14 08:52:28.934 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2023-01-14 08:52:28.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:52:28.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/jquery-validation/dist/jquery.validate.min.js - -
+2023-01-14 08:52:28.936 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.7498ms
+2023-01-14 08:52:28.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:52:28.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.6659ms
+2023-01-14 08:52:28.956 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2023-01-14 08:52:28.956 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5868 application/javascript 22.0478ms
+2023-01-14 08:52:28.960 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2023-01-14 08:52:28.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 application/javascript 25.7249ms
+2023-01-14 08:59:07.701 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-14 08:59:08.100 +03:00 [INF] Now listening on: https://localhost:7282
+2023-01-14 08:59:08.100 +03:00 [INF] Now listening on: http://localhost:5282
+2023-01-14 08:59:08.104 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 08:59:08.104 +03:00 [INF] Hosting environment: Development
+2023-01-14 08:59:08.104 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-01-14 08:59:08.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 08:59:08.699 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:59:08.729 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 08:59:08.740 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 08:59:08.933 +03:00 [INF] Executed ViewResult - view Index executed in 193.723ms.
+2023-01-14 08:59:08.942 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 212.1455ms
+2023-01-14 08:59:08.943 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:59:08.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 378.0344ms
+2023-01-14 08:59:09.037 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:59:09.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 8.0860ms
+2023-01-14 08:59:09.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:59:09.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5290ms
+2023-01-14 08:59:15.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-01-14 08:59:15.307 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 08:59:15.321 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-01-14 08:59:15.331 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-01-14 08:59:15.396 +03:00 [INF] Executed ViewResult - view Signup executed in 65.2532ms.
+2023-01-14 08:59:15.396 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 74.5332ms
+2023-01-14 08:59:15.396 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 08:59:15.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 95.9346ms
+2023-01-14 08:59:15.459 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:59:15.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.7198ms
+2023-01-14 08:59:15.480 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:59:15.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.9851ms
+2023-01-14 08:59:37.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-01-14 08:59:37.162 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 08:59:37.162 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-01-14 08:59:37.163 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-01-14 08:59:37.171 +03:00 [INF] Executed ViewResult - view Signup executed in 8.4463ms.
+2023-01-14 08:59:37.171 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 9.0362ms
+2023-01-14 08:59:37.172 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 08:59:37.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 16.3990ms
+2023-01-14 08:59:37.219 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:59:37.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.8318ms
+2023-01-14 08:59:37.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:59:37.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2379ms
+2023-01-14 08:59:39.970 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 08:59:39.971 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:59:39.971 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 08:59:39.971 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 08:59:39.975 +03:00 [INF] Executed ViewResult - view Index executed in 3.6221ms.
+2023-01-14 08:59:39.975 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 3.898ms
+2023-01-14 08:59:39.975 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:59:39.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 6.5381ms
+2023-01-14 08:59:40.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:59:40.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 6.3292ms
+2023-01-14 08:59:40.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:59:40.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.5355ms
+2023-01-14 08:59:40.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Home/Privacy - -
+2023-01-14 08:59:40.707 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Privacy (OnlineBalance)'
+2023-01-14 08:59:40.708 +03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 08:59:40.709 +03:00 [INF] Executing ViewResult, running view Privacy.
+2023-01-14 08:59:40.717 +03:00 [INF] Executed ViewResult - view Privacy executed in 8.2669ms.
+2023-01-14 08:59:40.717 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Privacy (OnlineBalance) in 8.7292ms
+2023-01-14 08:59:40.717 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Privacy (OnlineBalance)'
+2023-01-14 08:59:40.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Home/Privacy - - - 200 - text/html;+charset=utf-8 15.0199ms
+2023-01-14 08:59:40.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:59:40.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.4798ms
+2023-01-14 08:59:40.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:59:40.794 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.1220ms
+2023-01-14 08:59:41.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 08:59:41.963 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:59:41.964 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 08:59:41.964 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 08:59:41.967 +03:00 [INF] Executed ViewResult - view Index executed in 3.6076ms.
+2023-01-14 08:59:41.967 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 3.8251ms
+2023-01-14 08:59:41.968 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 08:59:41.969 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 6.1379ms
+2023-01-14 08:59:42.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 08:59:42.014 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.2688ms
+2023-01-14 08:59:42.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 08:59:42.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.8759ms
+2023-01-14 09:34:13.291 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-14 09:34:13.548 +03:00 [INF] Now listening on: https://localhost:7282
+2023-01-14 09:34:13.548 +03:00 [INF] Now listening on: http://localhost:5282
+2023-01-14 09:34:13.550 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 09:34:13.551 +03:00 [INF] Hosting environment: Development
+2023-01-14 09:34:13.551 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-01-14 09:34:14.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 09:34:14.541 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 09:34:14.575 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 09:34:14.586 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 09:34:14.810 +03:00 [INF] Executed ViewResult - view Index executed in 224.7833ms.
+2023-01-14 09:34:14.819 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 242.899ms
+2023-01-14 09:34:14.820 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 09:34:14.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 431.2994ms
+2023-01-14 09:34:14.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 09:34:15.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 12.0273ms
+2023-01-14 09:34:15.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 09:34:15.078 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.7624ms
+2023-01-14 09:34:20.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-01-14 09:34:20.756 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 09:34:20.776 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-01-14 09:34:20.786 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-01-14 09:34:20.855 +03:00 [INF] Executed ViewResult - view Signup executed in 69.5688ms.
+2023-01-14 09:34:20.855 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 79.1079ms
+2023-01-14 09:34:20.855 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 09:34:20.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 107.6876ms
+2023-01-14 09:34:20.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 09:34:20.920 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.3902ms
+2023-01-14 09:34:20.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 09:34:20.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.9111ms
+2023-01-14 09:38:24.574 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-14 09:38:24.897 +03:00 [INF] Now listening on: https://localhost:7282
+2023-01-14 09:38:24.897 +03:00 [INF] Now listening on: http://localhost:5282
+2023-01-14 09:38:24.899 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 09:38:24.900 +03:00 [INF] Hosting environment: Development
+2023-01-14 09:38:24.900 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-01-14 09:38:25.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 09:38:25.569 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 09:38:25.603 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 09:38:25.616 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 09:38:25.843 +03:00 [INF] Executed ViewResult - view Index executed in 229.8272ms.
+2023-01-14 09:38:25.853 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 249.4306ms
+2023-01-14 09:38:25.854 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 09:38:25.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 444.2688ms
+2023-01-14 09:38:25.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 09:38:25.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 10.4528ms
+2023-01-14 09:38:26.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 09:38:26.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.8301ms
+2023-01-14 09:38:31.812 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-01-14 09:38:31.815 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 09:38:31.829 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-01-14 09:38:31.838 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-01-14 09:38:31.907 +03:00 [INF] Executed ViewResult - view Signup executed in 69.3423ms.
+2023-01-14 09:38:31.908 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 77.9863ms
+2023-01-14 09:38:31.908 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 09:38:31.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 98.2416ms
+2023-01-14 09:38:31.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 09:38:31.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.3496ms
+2023-01-14 09:43:42.302 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-14 09:43:42.555 +03:00 [INF] Now listening on: https://localhost:7282
+2023-01-14 09:43:42.555 +03:00 [INF] Now listening on: http://localhost:5282
+2023-01-14 09:43:42.558 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 09:43:42.558 +03:00 [INF] Hosting environment: Development
+2023-01-14 09:43:42.558 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-01-14 09:43:43.128 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-01-14 09:43:43.222 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 09:43:43.260 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-01-14 09:43:43.272 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-14 09:43:43.462 +03:00 [INF] Executed ViewResult - view Index executed in 191.2317ms.
+2023-01-14 09:43:43.470 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 209.6955ms
+2023-01-14 09:43:43.471 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-01-14 09:43:43.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 396.2416ms
+2023-01-14 09:43:43.566 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 09:43:43.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 7.3487ms
+2023-01-14 09:43:43.642 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 09:43:43.673 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.0881ms
+2023-01-14 09:43:48.235 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-01-14 09:43:48.240 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 09:43:48.255 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-01-14 09:43:48.265 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-01-14 09:43:48.338 +03:00 [INF] Executed ViewResult - view Signup executed in 73.4067ms.
+2023-01-14 09:43:48.338 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 83.5895ms
+2023-01-14 09:43:48.338 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-01-14 09:43:48.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 106.0475ms
+2023-01-14 09:43:48.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-01-14 09:43:48.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.4379ms
+2023-01-14 09:43:48.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-01-14 09:43:48.405 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4066ms

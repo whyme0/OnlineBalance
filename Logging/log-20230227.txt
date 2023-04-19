@@ -1,0 +1,1420 @@
+2023-02-27 16:59:14.898 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 16:59:15.202 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 16:59:15.202 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 16:59:15.206 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 16:59:15.206 +03:00 [INF] Hosting environment: Development
+2023-02-27 16:59:15.206 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 16:59:16.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 16:59:16.746 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 16:59:16.920 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 16:59:16.950 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 16:59:17.542 +03:00 [INF] Executed ViewResult - view Index executed in 594.7896ms.
+2023-02-27 16:59:17.554 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 632.5343ms
+2023-02-27 16:59:17.556 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 16:59:17.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 1125.1968ms
+2023-02-27 16:59:17.823 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-02-27 16:59:17.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - -
+2023-02-27 16:59:17.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-02-27 16:59:17.843 +03:00 [INF] Sending file. Request path: '/OnlineBalance.styles.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\obj\Debug\net6.0\scopedcss\bundle\OnlineBalance.styles.css'
+2023-02-27 16:59:17.843 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-02-27 16:59:17.843 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\css\site.css'
+2023-02-27 16:59:17.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - - - 0 1130 text/css 18.0042ms
+2023-02-27 16:59:17.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - - - 0 162720 text/css 20.5186ms
+2023-02-27 16:59:17.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 0 194 text/css 17.9854ms
+2023-02-27 16:59:17.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-27 16:59:17.915 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-27 16:59:17.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 2.1855ms
+2023-02-27 16:59:44.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signin - -
+2023-02-27 16:59:44.211 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 16:59:44.232 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signin(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 16:59:44.713 +03:00 [INF] Executing ViewResult, running view Signin.
+2023-02-27 16:59:44.763 +03:00 [INF] Executed ViewResult - view Signin executed in 50.372ms.
+2023-02-27 16:59:44.765 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 532.8166ms
+2023-02-27 16:59:44.765 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 16:59:44.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signin - - - 200 - text/html;+charset=utf-8 620.3085ms
+2023-02-27 17:45:40.699 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 17:45:40.832 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 17:45:40.832 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 17:45:40.834 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 17:45:40.834 +03:00 [INF] Hosting environment: Development
+2023-02-27 17:45:40.834 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 17:48:18.408 +03:00 [INF] Application is shutting down...
+2023-02-27 17:48:24.074 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 17:48:24.193 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 17:48:24.193 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 17:48:24.196 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 17:48:24.196 +03:00 [INF] Hosting environment: Development
+2023-02-27 17:48:24.197 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 17:49:17.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/ - -
+2023-02-27 17:49:17.529 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/ - - - 307 0 - 12.1629ms
+2023-02-27 17:49:17.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 17:49:17.702 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 17:49:17.721 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 17:49:17.733 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 17:49:17.838 +03:00 [INF] Executed ViewResult - view Index executed in 102.4172ms.
+2023-02-27 17:49:17.840 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 118.0858ms
+2023-02-27 17:49:17.840 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 17:49:17.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 175.4786ms
+2023-02-27 17:49:17.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-02-27 17:49:17.918 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-02-27 17:49:17.919 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - - - 0 162720 text/css 12.9465ms
+2023-02-27 17:49:24.131 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signin - -
+2023-02-27 17:49:24.133 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 17:49:24.143 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signin(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 17:49:24.500 +03:00 [INF] Executing ViewResult, running view Signin.
+2023-02-27 17:49:24.537 +03:00 [INF] Executed ViewResult - view Signin executed in 37.725ms.
+2023-02-27 17:49:24.537 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 393.762ms
+2023-02-27 17:49:24.537 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 17:49:24.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signin - - - 200 - text/html;+charset=utf-8 407.9240ms
+2023-02-27 17:49:31.769 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 252
+2023-02-27 17:49:31.773 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 17:49:31.785 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signin(OnlineBalance.Models.SignInUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 17:49:32.645 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 17:49:33.368 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2023-02-27 17:49:33.476 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 17:49:33.557 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."ClaimType", u."ClaimValue", u."UserId"
+FROM "UserClaims" AS u
+WHERE u."UserId" = @__user_Id_0
+2023-02-27 17:49:33.590 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Name"
+FROM "UserRoles" AS u
+INNER JOIN "Roles" AS r ON u."RoleId" = r."Id"
+WHERE u."UserId" = @__userId_0
+2023-02-27 17:49:33.594 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-02-27 17:49:33.597 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 17:49:33.598 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 1813.0732ms
+2023-02-27 17:49:33.598 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 17:49:33.602 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 252 - 302 0 - 1833.1002ms
+2023-02-27 17:49:33.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 17:49:33.616 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 17:49:33.617 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 17:49:33.617 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 17:49:33.621 +03:00 [INF] Executed ViewResult - view Index executed in 3.637ms.
+2023-02-27 17:49:33.621 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 3.982ms
+2023-02-27 17:49:33.621 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 17:49:33.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 7.0799ms
+2023-02-27 17:49:34.898 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 17:49:34.902 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 17:49:34.905 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 17:49:34.945 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 17:49:34.949 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 17:49:34.973 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 17:49:35.007 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 17:49:35.030 +03:00 [INF] Executed ViewResult - view List executed in 23.4379ms.
+2023-02-27 17:49:35.030 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 125.6737ms
+2023-02-27 17:49:35.030 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 17:49:35.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 133.0302ms
+2023-02-27 17:49:38.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - -
+2023-02-27 17:49:38.492 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 17:49:38.494 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 17:49:38.503 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 17:49:38.510 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 17:49:38.511 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 17:49:38.515 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 17:49:38.522 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 27.641ms
+2023-02-27 17:49:38.522 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 17:49:38.525 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression[TModel,TResult](Expression`1 expression, ViewDataDictionary`1 viewData, IModelMetadataProvider metadataProvider)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider.CreateModelExpression[TModel,TValue](ViewDataDictionary`1 viewData, Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.GetModelExpression[TResult](Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor[TResult](Expression`1 expression, String templateName, String htmlFieldName, Object additionalViewData)
+   at Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor[TModel,TResult](IHtmlHelper`1 htmlHelper, Expression`1 expression)
+   at AspNetCoreGeneratedDocument.Views_Account_Details.ExecuteAsync() in C:\Users\windows-hater\source\repos\OnlineBalance\Views\Account\Details.cshtml:line 19
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-27 17:49:38.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - - - 500 - text/html;+charset=utf-8 114.6788ms
+2023-02-27 17:52:26.375 +03:00 [INF] Application is shutting down...
+2023-02-27 17:52:57.232 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 17:52:57.343 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 17:52:57.343 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 17:52:57.345 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 17:52:57.346 +03:00 [INF] Hosting environment: Development
+2023-02-27 17:52:57.346 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 17:53:28.607 +03:00 [INF] Application is shutting down...
+2023-02-27 18:13:49.804 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 18:13:49.918 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 18:13:49.918 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 18:13:49.921 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 18:13:49.921 +03:00 [INF] Hosting environment: Development
+2023-02-27 18:13:49.921 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 18:18:27.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 18:18:27.747 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 18:18:27.757 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 18:18:27.769 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 18:18:27.842 +03:00 [INF] Executed ViewResult - view Index executed in 72.6265ms.
+2023-02-27 18:18:27.844 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 86.0114ms
+2023-02-27 18:18:27.844 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 18:18:27.853 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 273.4099ms
+2023-02-27 18:18:27.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-02-27 18:18:27.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-02-27 18:18:27.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - -
+2023-02-27 18:18:27.924 +03:00 [INF] Sending file. Request path: '/OnlineBalance.styles.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\obj\Debug\net6.0\scopedcss\bundle\OnlineBalance.styles.css'
+2023-02-27 18:18:27.924 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-02-27 18:18:27.924 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\css\site.css'
+2023-02-27 18:18:27.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - - - 0 1130 text/css 9.2934ms
+2023-02-27 18:18:27.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 0 194 text/css 9.6671ms
+2023-02-27 18:18:27.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - - - 0 162720 text/css 10.2303ms
+2023-02-27 18:18:29.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 18:18:29.150 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:18:29.158 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:18:29.999 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:18:30.567 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:18:30.728 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 18:18:30.767 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 18:18:30.794 +03:00 [INF] Executed ViewResult - view List executed in 28.3833ms.
+2023-02-27 18:18:30.795 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 1636.9198ms
+2023-02-27 18:18:30.796 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:18:30.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 1662.1149ms
+2023-02-27 18:18:32.358 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - -
+2023-02-27 18:18:32.373 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:18:32.384 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:18:32.426 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:18:32.433 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:18:32.437 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:18:32.440 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:18:32.446 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 61.6404ms
+2023-02-27 18:18:32.446 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:18:32.449 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression[TModel,TResult](Expression`1 expression, ViewDataDictionary`1 viewData, IModelMetadataProvider metadataProvider)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider.CreateModelExpression[TModel,TValue](ViewDataDictionary`1 viewData, Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.GetModelExpression[TResult](Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor[TResult](Expression`1 expression, String templateName, String htmlFieldName, Object additionalViewData)
+   at Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor[TModel,TResult](IHtmlHelper`1 htmlHelper, Expression`1 expression)
+   at AspNetCoreGeneratedDocument.Views_Account_Details.ExecuteAsync() in C:\Users\windows-hater\source\repos\OnlineBalance\Views\Account\Details.cshtml:line 25
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-27 18:18:32.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - - - 500 - text/html;+charset=utf-8 139.9335ms
+2023-02-27 18:18:39.528 +03:00 [INF] Application is shutting down...
+2023-02-27 18:19:24.561 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 18:19:24.693 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 18:19:24.693 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 18:19:24.696 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 18:19:24.696 +03:00 [INF] Hosting environment: Development
+2023-02-27 18:19:24.697 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 18:19:33.095 +03:00 [INF] Application is shutting down...
+2023-02-27 18:19:39.129 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 18:19:39.266 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 18:19:39.266 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 18:19:39.269 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 18:19:39.270 +03:00 [INF] Hosting environment: Development
+2023-02-27 18:19:39.270 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 18:19:44.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - -
+2023-02-27 18:19:45.802 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:19:46.513 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2023-02-27 18:19:46.682 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."ClaimType", u."ClaimValue", u."UserId"
+FROM "UserClaims" AS u
+WHERE u."UserId" = @__user_Id_0
+2023-02-27 18:19:46.733 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Name"
+FROM "UserRoles" AS u
+INNER JOIN "Roles" AS r ON u."RoleId" = r."Id"
+WHERE u."UserId" = @__userId_0
+2023-02-27 18:19:46.746 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:19:46.770 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:19:46.794 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:19:46.880 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:19:46.902 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:19:46.990 +03:00 [INF] Executed ViewResult - view Details executed in 88.551ms.
+2023-02-27 18:19:46.992 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 220.9674ms
+2023-02-27 18:19:46.994 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:19:47.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - - - 200 - text/html;+charset=utf-8 2615.2233ms
+2023-02-27 18:19:58.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signout - -
+2023-02-27 18:19:58.883 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signout (OnlineBalance)'
+2023-02-27 18:19:58.887 +03:00 [INF] Route matched with {action = "Signout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signout() on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 18:19:58.890 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2023-02-27 18:19:58.890 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2023-02-27 18:19:58.891 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2023-02-27 18:19:58.891 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 18:19:58.891 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signout (OnlineBalance) in 4.5795ms
+2023-02-27 18:19:58.891 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signout (OnlineBalance)'
+2023-02-27 18:19:58.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signout - - - 302 0 - 10.2938ms
+2023-02-27 18:19:58.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 18:19:58.909 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 18:19:58.910 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 18:19:58.911 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 18:19:58.916 +03:00 [INF] Executed ViewResult - view Index executed in 5.9731ms.
+2023-02-27 18:19:58.917 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 6.4545ms
+2023-02-27 18:19:58.917 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 18:19:58.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 8.3501ms
+2023-02-27 18:19:59.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-27 18:19:59.038 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-27 18:19:59.038 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 12.6715ms
+2023-02-27 18:20:00.144 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signin - -
+2023-02-27 18:20:00.146 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 18:20:00.147 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signin(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 18:20:00.156 +03:00 [INF] Executing ViewResult, running view Signin.
+2023-02-27 18:20:00.200 +03:00 [INF] Executed ViewResult - view Signin executed in 44.6338ms.
+2023-02-27 18:20:00.200 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 52.1323ms
+2023-02-27 18:20:00.200 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 18:20:00.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signin - - - 200 - text/html;+charset=utf-8 56.0605ms
+2023-02-27 18:20:09.362 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 257
+2023-02-27 18:20:09.362 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 18:20:09.367 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signin(OnlineBalance.Models.SignInUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 18:20:09.431 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:20:09.437 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2023-02-27 18:20:09.443 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:20:09.461 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."ClaimType", u."ClaimValue", u."UserId"
+FROM "UserClaims" AS u
+WHERE u."UserId" = @__user_Id_0
+2023-02-27 18:20:09.462 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Name"
+FROM "UserRoles" AS u
+INNER JOIN "Roles" AS r ON u."RoleId" = r."Id"
+WHERE u."UserId" = @__userId_0
+2023-02-27 18:20:09.464 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-02-27 18:20:09.465 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 18:20:09.465 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 98.2818ms
+2023-02-27 18:20:09.465 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 18:20:09.465 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 257 - 302 0 - 103.5182ms
+2023-02-27 18:20:09.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 18:20:09.480 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 18:20:09.481 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 18:20:09.481 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 18:20:09.481 +03:00 [INF] Executed ViewResult - view Index executed in 0.7797ms.
+2023-02-27 18:20:09.482 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 0.9216ms
+2023-02-27 18:20:09.482 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 18:20:09.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 2.6157ms
+2023-02-27 18:20:11.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 18:20:11.343 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:20:11.346 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:20:11.354 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:20:11.356 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:20:11.370 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 18:20:11.371 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 18:20:11.387 +03:00 [INF] Executed ViewResult - view List executed in 16.5604ms.
+2023-02-27 18:20:11.388 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 41.8586ms
+2023-02-27 18:20:11.388 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:20:11.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 45.3066ms
+2023-02-27 18:20:24.142 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 18:20:24.143 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:20:24.143 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:20:24.144 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:20:24.145 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:20:24.145 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:20:24.148 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:20:24.149 +03:00 [INF] Executed ViewResult - view Details executed in 0.7468ms.
+2023-02-27 18:20:24.149 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 5.7784ms
+2023-02-27 18:20:24.149 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:20:24.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 7.0976ms
+2023-02-27 18:20:26.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:20:26.767 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:20:26.769 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:20:26.771 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:20:26.772 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:20:26.773 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:20:26.774 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:20:26.791 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 17.4057ms.
+2023-02-27 18:20:26.791 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 21.8774ms
+2023-02-27 18:20:26.791 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:20:26.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 25.0516ms
+2023-02-27 18:20:35.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:20:35.341 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:20:35.341 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:20:35.341 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:20:35.342 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:20:35.343 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:20:35.343 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:20:35.345 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 1.2555ms.
+2023-02-27 18:20:35.345 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 3.9848ms
+2023-02-27 18:20:35.345 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:20:35.345 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 4.9120ms
+2023-02-27 18:21:03.543 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 297
+2023-02-27 18:21:03.543 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:21:03.550 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:21:03.559 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:21:03.560 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:21:03.561 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:21:03.561 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:21:03.564 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 2.2398ms.
+2023-02-27 18:21:03.564 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 13.3301ms
+2023-02-27 18:21:03.564 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:21:03.564 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 297 - 200 - text/html;+charset=utf-8 21.2310ms
+2023-02-27 18:22:29.983 +03:00 [INF] Application is shutting down...
+2023-02-27 18:22:34.825 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 18:22:34.939 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 18:22:34.939 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 18:22:34.941 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 18:22:34.941 +03:00 [INF] Hosting environment: Development
+2023-02-27 18:22:34.942 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 18:22:37.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:22:37.316 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:22:37.340 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:22:38.180 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:22:38.819 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:22:38.919 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:22:38.992 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:22:39.100 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 107.335ms.
+2023-02-27 18:22:39.103 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 1762.9137ms
+2023-02-27 18:22:39.104 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:22:39.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 1991.1944ms
+2023-02-27 18:22:54.320 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617623832400/send - -
+2023-02-27 18:22:54.323 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:22:54.323 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:22:54.325 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:22:54.328 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:22:54.333 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-02-27 18:22:54.333 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 10.0413ms
+2023-02-27 18:22:54.333 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:22:54.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617623832400/send - - - 404 0 - 13.8011ms
+2023-02-27 18:23:00.333 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927/send - -
+2023-02-27 18:23:00.345 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:23:00.346 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:23:00.389 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:23:00.391 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:23:00.393 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:23:00.394 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-02-27 18:23:00.394 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 48.6421ms
+2023-02-27 18:23:00.394 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:23:00.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927/send - - - 404 0 - 61.8138ms
+2023-02-27 18:23:06.878 +03:00 [INF] Application is shutting down...
+2023-02-27 18:24:12.350 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 18:24:12.476 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 18:24:12.476 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 18:24:12.480 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 18:24:12.480 +03:00 [INF] Hosting environment: Development
+2023-02-27 18:24:12.480 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 18:24:13.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/ - -
+2023-02-27 18:24:13.861 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:24:13.880 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:14.765 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:15.325 +03:00 [INF] Executed DbCommand (72ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:24:15.515 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 18:24:15.558 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 18:24:15.658 +03:00 [INF] Executed ViewResult - view List executed in 97.4026ms.
+2023-02-27 18:24:15.660 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 1778.9513ms
+2023-02-27 18:24:15.660 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:24:15.673 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/ - - - 200 - text/html;+charset=utf-8 2012.8509ms
+2023-02-27 18:24:15.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-27 18:24:15.804 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-27 18:24:15.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 15.5782ms
+2023-02-27 18:24:20.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 18:24:20.888 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:24:20.901 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:20.942 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:20.949 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:20.954 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:24:20.958 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:24:20.965 +03:00 [INF] Executed ViewResult - view Details executed in 7.3949ms.
+2023-02-27 18:24:20.965 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 64.4438ms
+2023-02-27 18:24:20.965 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:24:20.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 80.2326ms
+2023-02-27 18:24:22.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:24:22.352 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:22.355 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:22.364 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:22.366 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:22.367 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:24:22.393 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 27.1267ms.
+2023-02-27 18:24:22.393 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 38.4559ms
+2023-02-27 18:24:22.393 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:22.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 53.8820ms
+2023-02-27 18:24:33.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927/send - -
+2023-02-27 18:24:33.556 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:33.556 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:33.557 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:33.558 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:33.558 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:24:33.560 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 2.0685ms.
+2023-02-27 18:24:33.560 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 4.5059ms
+2023-02-27 18:24:33.560 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:33.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927/send - - - 200 - text/html;+charset=utf-8 5.8463ms
+2023-02-27 18:24:38.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288947633927/send - -
+2023-02-27 18:24:38.293 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:38.293 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:38.294 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:38.295 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:38.301 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-02-27 18:24:38.301 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 7.8603ms
+2023-02-27 18:24:38.301 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:38.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288947633927/send - - - 404 0 - 9.1653ms
+2023-02-27 18:24:50.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288947633927/send - -
+2023-02-27 18:24:50.084 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:50.088 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:50.090 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:50.094 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:50.094 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-02-27 18:24:50.094 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 6.4336ms
+2023-02-27 18:24:50.094 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:50.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288947633927/send - - - 404 0 - 10.9160ms
+2023-02-27 18:24:50.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-27 18:24:50.161 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-27 18:24:50.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 1.0439ms
+2023-02-27 18:24:53.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/ - -
+2023-02-27 18:24:53.074 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:24:53.078 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:53.078 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:53.080 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:24:53.085 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 18:24:53.087 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 18:24:53.093 +03:00 [INF] Executed ViewResult - view List executed in 7.808ms.
+2023-02-27 18:24:53.094 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 15.6251ms
+2023-02-27 18:24:53.094 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:24:53.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/ - - - 200 - text/html;+charset=utf-8 21.8764ms
+2023-02-27 18:24:54.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 18:24:54.343 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:24:54.346 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:54.346 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:54.347 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:54.348 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:24:54.349 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:24:54.351 +03:00 [INF] Executed ViewResult - view Details executed in 2.4179ms.
+2023-02-27 18:24:54.351 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 5.2304ms
+2023-02-27 18:24:54.351 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:24:54.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 8.7154ms
+2023-02-27 18:24:54.492 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-27 18:24:54.492 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-27 18:24:54.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 0.6218ms
+2023-02-27 18:24:55.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:24:55.528 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:55.528 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:24:55.529 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:24:55.530 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:24:55.531 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:24:55.531 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:24:55.536 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 4.8178ms.
+2023-02-27 18:24:55.536 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 7.7897ms
+2023-02-27 18:24:55.536 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:24:55.536 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 8.7230ms
+2023-02-27 18:25:07.776 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 291
+2023-02-27 18:25:07.777 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:25:07.786 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:25:07.801 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:25:07.801 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:25:07.803 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:25:07.803 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:25:07.805 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 1.8214ms.
+2023-02-27 18:25:07.805 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 18.4391ms
+2023-02-27 18:25:07.805 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:25:07.805 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 291 - 200 - text/html;+charset=utf-8 28.6617ms
+2023-02-27 18:25:46.258 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 287
+2023-02-27 18:25:46.259 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:25:46.264 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:25:46.265 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:25:46.266 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:25:46.267 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:25:46.269 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:25:46.274 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 6.0492ms.
+2023-02-27 18:25:46.274 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 10.519ms
+2023-02-27 18:25:46.274 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:25:46.274 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 287 - 200 - text/html;+charset=utf-8 16.0751ms
+2023-02-27 18:39:45.676 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 18:39:45.802 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 18:39:45.802 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 18:39:45.805 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 18:39:45.805 +03:00 [INF] Hosting environment: Development
+2023-02-27 18:39:45.805 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 18:39:46.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:39:46.349 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:39:46.377 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:39:47.290 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:39:47.812 +03:00 [INF] Executed DbCommand (68ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:39:47.906 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:39:47.984 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:39:48.091 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 106.2329ms.
+2023-02-27 18:39:48.095 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 1717.0523ms
+2023-02-27 18:39:48.095 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:39:48.106 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 1974.8335ms
+2023-02-27 18:39:48.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-27 18:39:48.232 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-27 18:39:48.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 11.7998ms
+2023-02-27 18:40:18.340 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293
+2023-02-27 18:40:18.342 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:40:18.350 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:40:18.367 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:40:18.370 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:40:18.371 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:40:18.376 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__transferMoneyDTO_RecipientAccountNumber_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__transferMoneyDTO_RecipientAccountNumber_0
+LIMIT 1
+2023-02-27 18:40:18.479 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Accounts" SET "Balance" = @p0
+WHERE "Id" = @p1;
+2023-02-27 18:40:18.501 +03:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2023-02-27 18:40:18.502 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 151.5791ms
+2023-02-27 18:40:18.502 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:40:18.502 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293 - 200 147 text/plain;+charset=utf-8 162.2691ms
+2023-02-27 18:40:42.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:40:42.544 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:40:42.545 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:40:42.589 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:40:42.591 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:40:42.592 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:40:42.593 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:40:42.597 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 4.3395ms.
+2023-02-27 18:40:42.597 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 52.8563ms
+2023-02-27 18:40:42.598 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:40:42.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 66.2552ms
+2023-02-27 18:40:45.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 18:40:45.524 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:40:45.527 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:40:45.529 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:40:45.530 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:40:45.590 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 18:40:45.592 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 18:40:45.613 +03:00 [INF] Executed ViewResult - view List executed in 21.6054ms.
+2023-02-27 18:40:45.613 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 85.8451ms
+2023-02-27 18:40:45.613 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:40:45.614 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 90.0742ms
+2023-02-27 18:40:46.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 18:40:46.958 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:40:46.961 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:40:46.962 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:40:46.963 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:40:46.964 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:40:46.965 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:40:46.971 +03:00 [INF] Executed ViewResult - view Details executed in 6.1224ms.
+2023-02-27 18:40:46.971 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 10.1686ms
+2023-02-27 18:40:46.971 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:40:46.971 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 14.0221ms
+2023-02-27 18:47:30.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 18:47:30.085 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:47:30.088 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:47:30.088 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:47:30.140 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:47:30.147 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 18:47:30.148 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 18:47:30.154 +03:00 [INF] Executed ViewResult - view List executed in 6.9349ms.
+2023-02-27 18:47:30.154 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 66.5458ms
+2023-02-27 18:47:30.155 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 18:47:30.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 70.5086ms
+2023-02-27 18:47:33.948 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 18:47:33.950 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:47:33.952 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:47:33.953 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:47:33.956 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:47:33.957 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:47:33.958 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 18:47:33.960 +03:00 [INF] Executed ViewResult - view Details executed in 1.8551ms.
+2023-02-27 18:47:33.960 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 7.3413ms
+2023-02-27 18:47:33.960 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 18:47:33.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 12.4761ms
+2023-02-27 18:47:35.485 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 18:47:35.486 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:47:35.489 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 18:47:35.489 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 18:47:35.490 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 18:47:35.491 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 18:47:35.492 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 18:47:35.495 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 3.922ms.
+2023-02-27 18:47:35.496 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 6.7732ms
+2023-02-27 18:47:35.496 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 18:47:35.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 10.7909ms
+2023-02-27 19:08:22.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 19:08:22.230 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:08:22.285 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2023-02-27 19:08:22.309 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."ClaimType", u."ClaimValue", u."UserId"
+FROM "UserClaims" AS u
+WHERE u."UserId" = @__user_Id_0
+2023-02-27 19:08:22.327 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Name"
+FROM "UserRoles" AS u
+INNER JOIN "Roles" AS r ON u."RoleId" = r."Id"
+WHERE u."UserId" = @__userId_0
+2023-02-27 19:08:22.330 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:08:22.332 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:08:22.338 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:08:22.340 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:08:22.341 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 19:08:22.347 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 6.4138ms.
+2023-02-27 19:08:22.347 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 14.1977ms
+2023-02-27 19:08:22.347 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:08:22.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 119.2551ms
+2023-02-27 19:08:57.535 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 19:08:57.537 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:08:57.541 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:08:57.542 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:08:57.546 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:08:57.548 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:08:57.549 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 19:08:57.554 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 6.2801ms.
+2023-02-27 19:08:57.555 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 13.5214ms
+2023-02-27 19:08:57.555 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:08:57.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 19.9934ms
+2023-02-27 19:09:07.221 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293
+2023-02-27 19:09:07.222 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:09:07.224 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:07.228 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:07.229 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:09:07.230 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:07.234 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__transferMoneyDTO_RecipientAccountNumber_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__transferMoneyDTO_RecipientAccountNumber_0
+LIMIT 1
+2023-02-27 19:09:07.234 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 19:09:07.236 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 1.3541ms.
+2023-02-27 19:09:07.236 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 11.3864ms
+2023-02-27 19:09:07.236 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:09:07.236 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 15.4626ms
+2023-02-27 19:09:11.429 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293
+2023-02-27 19:09:11.430 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:09:11.430 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:11.431 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:11.432 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:09:11.433 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:11.433 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__transferMoneyDTO_RecipientAccountNumber_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__transferMoneyDTO_RecipientAccountNumber_0
+LIMIT 1
+2023-02-27 19:09:11.438 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Double), @p3='?' (DbType = Int32), @p2='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Accounts" SET "Balance" = @p0
+WHERE "Id" = @p1;
+UPDATE "Accounts" SET "Balance" = @p2
+WHERE "Id" = @p3;
+2023-02-27 19:09:11.440 +03:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2023-02-27 19:09:11.440 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 9.6676ms
+2023-02-27 19:09:11.440 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:09:11.440 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293 - 200 147 text/plain;+charset=utf-8 10.8572ms
+2023-02-27 19:09:38.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 19:09:38.543 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:09:38.545 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:38.546 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:38.547 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:38.553 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 19:09:38.554 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 19:09:38.558 +03:00 [INF] Executed ViewResult - view List executed in 5.1013ms.
+2023-02-27 19:09:38.559 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 13.0992ms
+2023-02-27 19:09:38.559 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:09:38.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 16.3377ms
+2023-02-27 19:09:40.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 19:09:40.084 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:09:40.088 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:40.089 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:40.092 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:09:40.093 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:40.093 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 19:09:40.095 +03:00 [INF] Executed ViewResult - view Details executed in 2.5391ms.
+2023-02-27 19:09:40.096 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 7.3832ms
+2023-02-27 19:09:40.096 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:09:40.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 13.0347ms
+2023-02-27 19:09:42.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 19:09:42.888 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:09:42.888 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:42.889 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:42.890 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:42.891 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 19:09:42.891 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 19:09:42.893 +03:00 [INF] Executed ViewResult - view List executed in 1.4837ms.
+2023-02-27 19:09:42.893 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 4.3018ms
+2023-02-27 19:09:42.893 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:09:42.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 5.2419ms
+2023-02-27 19:09:45.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signout - -
+2023-02-27 19:09:45.726 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signout (OnlineBalance)'
+2023-02-27 19:09:45.729 +03:00 [INF] Route matched with {action = "Signout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signout() on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 19:09:45.732 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2023-02-27 19:09:45.733 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2023-02-27 19:09:45.733 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2023-02-27 19:09:45.733 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 19:09:45.733 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signout (OnlineBalance) in 4.0801ms
+2023-02-27 19:09:45.733 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signout (OnlineBalance)'
+2023-02-27 19:09:45.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signout - - - 302 0 - 8.0546ms
+2023-02-27 19:09:45.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 19:09:45.749 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:09:45.750 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 19:09:45.751 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 19:09:45.755 +03:00 [INF] Executed ViewResult - view Index executed in 4.2753ms.
+2023-02-27 19:09:45.755 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 4.9851ms
+2023-02-27 19:09:45.755 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:09:45.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 6.4831ms
+2023-02-27 19:09:47.053 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signin - -
+2023-02-27 19:09:47.054 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:09:47.055 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signin(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 19:09:47.057 +03:00 [INF] Executing ViewResult, running view Signin.
+2023-02-27 19:09:47.080 +03:00 [INF] Executed ViewResult - view Signin executed in 23.8546ms.
+2023-02-27 19:09:47.080 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 24.8237ms
+2023-02-27 19:09:47.080 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:09:47.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signin - - - 200 - text/html;+charset=utf-8 27.3730ms
+2023-02-27 19:09:52.582 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 252
+2023-02-27 19:09:52.583 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:09:52.587 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signin(OnlineBalance.Models.SignInUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 19:09:52.594 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:52.599 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2023-02-27 19:09:52.602 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:52.621 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."ClaimType", u."ClaimValue", u."UserId"
+FROM "UserClaims" AS u
+WHERE u."UserId" = @__user_Id_0
+2023-02-27 19:09:52.623 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Name"
+FROM "UserRoles" AS u
+INNER JOIN "Roles" AS r ON u."RoleId" = r."Id"
+WHERE u."UserId" = @__userId_0
+2023-02-27 19:09:52.624 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-02-27 19:09:52.625 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 19:09:52.625 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 38.1319ms
+2023-02-27 19:09:52.625 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:09:52.626 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 252 - 302 0 - 43.2010ms
+2023-02-27 19:09:52.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 19:09:52.639 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:09:52.639 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 19:09:52.639 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 19:09:52.640 +03:00 [INF] Executed ViewResult - view Index executed in 0.4919ms.
+2023-02-27 19:09:52.640 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 0.7027ms
+2023-02-27 19:09:52.640 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:09:52.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 1.5228ms
+2023-02-27 19:09:54.121 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 19:09:54.122 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:09:54.122 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:54.122 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:54.123 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:54.124 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 19:09:54.124 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 19:09:54.126 +03:00 [INF] Executed ViewResult - view List executed in 1.6641ms.
+2023-02-27 19:09:54.126 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 4.2045ms
+2023-02-27 19:09:54.126 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:09:54.126 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 5.2114ms
+2023-02-27 19:09:55.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - -
+2023-02-27 19:09:55.710 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:09:55.710 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:09:55.711 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:09:55.711 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:09:55.712 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:09:55.713 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 19:09:55.713 +03:00 [INF] Executed ViewResult - view Details executed in 0.7107ms.
+2023-02-27 19:09:55.714 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 3.6024ms
+2023-02-27 19:09:55.714 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:09:55.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - - - 200 - text/html;+charset=utf-8 4.5267ms
+2023-02-27 19:14:58.185 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 19:14:58.306 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 19:14:58.307 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 19:14:58.310 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 19:14:58.310 +03:00 [INF] Hosting environment: Development
+2023-02-27 19:14:58.310 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 19:15:15.616 +03:00 [INF] Application is shutting down...
+2023-02-27 19:15:22.444 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-27 19:15:22.559 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-27 19:15:22.559 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-27 19:15:22.562 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 19:15:22.562 +03:00 [INF] Hosting environment: Development
+2023-02-27 19:15:22.562 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-27 19:15:28.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - -
+2023-02-27 19:15:28.440 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:15:28.466 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:29.294 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:29.795 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:15:29.884 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:29.945 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 19:15:30.025 +03:00 [INF] Executed ViewResult - view Details executed in 75.8385ms.
+2023-02-27 19:15:30.026 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 1560.2364ms
+2023-02-27 19:15:30.027 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:15:30.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/6253288949633927 - - - 200 - text/html;+charset=utf-8 1786.7153ms
+2023-02-27 19:15:31.732 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signout - -
+2023-02-27 19:15:31.735 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signout (OnlineBalance)'
+2023-02-27 19:15:31.738 +03:00 [INF] Route matched with {action = "Signout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signout() on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 19:15:31.742 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2023-02-27 19:15:31.743 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2023-02-27 19:15:31.743 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2023-02-27 19:15:31.744 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 19:15:31.744 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signout (OnlineBalance) in 5.5565ms
+2023-02-27 19:15:31.744 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signout (OnlineBalance)'
+2023-02-27 19:15:31.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signout - - - 302 0 - 12.3264ms
+2023-02-27 19:15:31.760 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 19:15:31.761 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:15:31.762 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 19:15:31.764 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 19:15:31.768 +03:00 [INF] Executed ViewResult - view Index executed in 5.8392ms.
+2023-02-27 19:15:31.769 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 6.4336ms
+2023-02-27 19:15:31.769 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:15:31.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 8.4200ms
+2023-02-27 19:15:33.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/Auth/Signin - -
+2023-02-27 19:15:33.243 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:15:33.245 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signin(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 19:15:33.253 +03:00 [INF] Executing ViewResult, running view Signin.
+2023-02-27 19:15:33.285 +03:00 [INF] Executed ViewResult - view Signin executed in 32.2651ms.
+2023-02-27 19:15:33.285 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 39.5314ms
+2023-02-27 19:15:33.285 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:15:33.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/Auth/Signin - - - 200 - text/html;+charset=utf-8 42.6345ms
+2023-02-27 19:15:37.822 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 257
+2023-02-27 19:15:37.822 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:15:37.827 +03:00 [INF] Route matched with {action = "Signin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signin(OnlineBalance.Models.SignInUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-27 19:15:37.852 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:37.858 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2023-02-27 19:15:37.862 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:37.937 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."ClaimType", u."ClaimValue", u."UserId"
+FROM "UserClaims" AS u
+WHERE u."UserId" = @__user_Id_0
+2023-02-27 19:15:37.966 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Name"
+FROM "UserRoles" AS u
+INNER JOIN "Roles" AS r ON u."RoleId" = r."Id"
+WHERE u."UserId" = @__userId_0
+2023-02-27 19:15:37.969 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-02-27 19:15:37.970 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2023-02-27 19:15:37.971 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signin (OnlineBalance) in 143.2023ms
+2023-02-27 19:15:37.971 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signin (OnlineBalance)'
+2023-02-27 19:15:37.971 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signin application/x-www-form-urlencoded 257 - 302 0 - 149.2423ms
+2023-02-27 19:15:37.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-27 19:15:37.988 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:15:37.989 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-27 19:15:37.989 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-27 19:15:37.994 +03:00 [INF] Executed ViewResult - view Index executed in 5.7039ms.
+2023-02-27 19:15:37.995 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 5.9764ms
+2023-02-27 19:15:37.995 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-27 19:15:37.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 8.7335ms
+2023-02-27 19:15:39.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 19:15:39.614 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:15:39.616 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:39.660 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:39.661 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:39.677 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 19:15:39.679 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 19:15:39.696 +03:00 [INF] Executed ViewResult - view List executed in 17.6635ms.
+2023-02-27 19:15:39.697 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 80.5457ms
+2023-02-27 19:15:39.697 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:15:39.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 84.6499ms
+2023-02-27 19:15:41.080 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 19:15:41.081 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:15:41.084 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:41.085 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:41.086 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:15:41.087 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:41.088 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 19:15:41.090 +03:00 [INF] Executed ViewResult - view Details executed in 2.7422ms.
+2023-02-27 19:15:41.090 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 6.3786ms
+2023-02-27 19:15:41.090 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:15:41.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 10.7686ms
+2023-02-27 19:15:42.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 19:15:42.163 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:15:42.163 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:42.164 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:42.165 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:42.165 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 19:15:42.166 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 19:15:42.168 +03:00 [INF] Executed ViewResult - view List executed in 2.3043ms.
+2023-02-27 19:15:42.168 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 5.0544ms
+2023-02-27 19:15:42.168 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:15:42.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 6.0609ms
+2023-02-27 19:15:43.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/create - -
+2023-02-27 19:15:43.360 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Create (OnlineBalance)'
+2023-02-27 19:15:43.361 +03:00 [INF] Route matched with {action = "Create", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:43.362 +03:00 [INF] Executing ViewResult, running view Create.
+2023-02-27 19:15:43.373 +03:00 [INF] Executed ViewResult - view Create executed in 12.298ms.
+2023-02-27 19:15:43.373 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Create (OnlineBalance) in 12.638ms
+2023-02-27 19:15:43.373 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Create (OnlineBalance)'
+2023-02-27 19:15:43.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/create - - - 200 - text/html;+charset=utf-8 14.3955ms
+2023-02-27 19:15:45.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts - -
+2023-02-27 19:15:45.049 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:15:45.050 +03:00 [INF] Route matched with {action = "List", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:45.050 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:45.051 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:45.052 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__entity_equality_user_0_Id='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+INNER JOIN "Users" AS u ON a."UserId" = u."Id"
+WHERE u."Id" = @__entity_equality_user_0_Id
+2023-02-27 19:15:45.053 +03:00 [INF] Executing ViewResult, running view List.
+2023-02-27 19:15:45.055 +03:00 [INF] Executed ViewResult - view List executed in 2.0044ms.
+2023-02-27 19:15:45.055 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.List (OnlineBalance) in 5.161ms
+2023-02-27 19:15:45.055 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.List (OnlineBalance)'
+2023-02-27 19:15:45.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts - - - 200 - text/html;+charset=utf-8 6.1985ms
+2023-02-27 19:15:46.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - -
+2023-02-27 19:15:46.405 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:15:46.405 +03:00 [INF] Route matched with {action = "Details", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:46.406 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:46.407 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:15:46.408 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:46.408 +03:00 [INF] Executing ViewResult, running view Details.
+2023-02-27 19:15:46.408 +03:00 [INF] Executed ViewResult - view Details executed in 0.5941ms.
+2023-02-27 19:15:46.408 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.Details (OnlineBalance) in 3.0632ms
+2023-02-27 19:15:46.408 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.Details (OnlineBalance)'
+2023-02-27 19:15:46.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400 - - - 200 - text/html;+charset=utf-8 3.9328ms
+2023-02-27 19:15:47.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - -
+2023-02-27 19:15:47.126 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:15:47.129 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:47.130 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:47.131 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:15:47.132 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:47.134 +03:00 [INF] Executing ViewResult, running view TransferMoney.
+2023-02-27 19:15:47.148 +03:00 [INF] Executed ViewResult - view TransferMoney executed in 15.5503ms.
+2023-02-27 19:15:47.148 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 19.6992ms
+2023-02-27 19:15:47.149 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:15:47.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/accounts/9009617523832400/send - - - 200 - text/html;+charset=utf-8 23.0235ms
+2023-02-27 19:15:55.972 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293
+2023-02-27 19:15:55.973 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:15:55.978 +03:00 [INF] Route matched with {action = "TransferMoney", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TransferMoney(Int64, OnlineBalance.Models.TransferMoneyDTO) on controller OnlineBalance.Controllers.AccountController (OnlineBalance).
+2023-02-27 19:15:55.982 +03:00 [INF] Entity Framework Core 6.0.12 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-02-27 19:15:55.983 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__id_0
+LIMIT 1
+2023-02-27 19:15:55.984 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."AccessFailedCount", u."BirthDate", u."ConcurrencyStamp", u."Email", u."EmailConfirmed", u."FirstName", u."LastName", u."LockoutEnabled", u."LockoutEnd", u."NormalizedEmail", u."NormalizedUserName", u."PasswordHash", u."PhoneNumber", u."PhoneNumberConfirmed", u."SecurityStamp", u."TwoFactorEnabled", u."UserName"
+FROM "Users" AS u
+WHERE u."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-02-27 19:15:55.987 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__transferMoneyDTO_RecipientAccountNumber_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Balance", a."Currency", a."Number", a."UserId"
+FROM "Accounts" AS a
+WHERE a."Number" = @__transferMoneyDTO_RecipientAccountNumber_0
+LIMIT 1
+2023-02-27 19:15:56.177 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Double), @p3='?' (DbType = Int32), @p2='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double), @p6='?', @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = Double), @p10='?', @p11='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Accounts" SET "Balance" = @p0
+WHERE "Id" = @p1;
+UPDATE "Accounts" SET "Balance" = @p2
+WHERE "Id" = @p3;
+INSERT INTO "Operations" ("AccountId", "Amount", "Description", "Type")
+VALUES (@p4, @p5, @p6, @p7)
+RETURNING "Id";
+INSERT INTO "Operations" ("AccountId", "Amount", "Description", "Type")
+VALUES (@p8, @p9, @p10, @p11)
+RETURNING "Id";
+2023-02-27 19:15:56.221 +03:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2023-02-27 19:15:56.221 +03:00 [INF] Executed action OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance) in 242.5563ms
+2023-02-27 19:15:56.221 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AccountController.TransferMoney (OnlineBalance)'
+2023-02-27 19:15:56.221 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/accounts/9009617523832400/send application/x-www-form-urlencoded 293 - 200 147 text/plain;+charset=utf-8 249.1579ms
+2023-02-27 19:16:49.672 +03:00 [INF] Application is shutting down...

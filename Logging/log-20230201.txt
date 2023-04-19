@@ -1,0 +1,107 @@
+2023-02-01 13:11:05.371 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-01 13:11:05.687 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-01 13:11:05.688 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-01 13:11:05.691 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-01 13:11:05.692 +03:00 [INF] Hosting environment: Development
+2023-02-01 13:11:05.692 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-01 13:11:06.892 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-01 13:11:06.960 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-01 13:11:07.006 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-01 13:11:07.022 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-01 13:11:07.422 +03:00 [INF] Executed ViewResult - view Index executed in 399.0685ms.
+2023-02-01 13:11:07.429 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 421.5557ms
+2023-02-01 13:11:07.429 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-01 13:11:07.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 559.1157ms
+2023-02-01 13:11:07.586 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-02-01 13:11:07.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-02-01 13:11:07.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - -
+2023-02-01 13:11:07.642 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\css\site.css'
+2023-02-01 13:11:07.642 +03:00 [INF] Sending file. Request path: '/OnlineBalance.styles.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\obj\Debug\net6.0\scopedcss\bundle\OnlineBalance.styles.css'
+2023-02-01 13:11:07.642 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-02-01 13:11:07.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 0 194 text/css 26.5368ms
+2023-02-01 13:11:07.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - - - 0 162720 text/css 55.9422ms
+2023-02-01 13:11:07.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/OnlineBalance.styles.css?v=UXr5_zaz68R-PEs_rfgd_AK80bNnU0pdImfQIHnO25U - - - 0 1130 text/css 19.9722ms
+2023-02-01 13:11:07.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/favicon.ico - -
+2023-02-01 13:11:07.762 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\favicon.ico'
+2023-02-01 13:11:07.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/favicon.ico - - - 0 5430 image/x-icon 3.8560ms
+2023-02-01 13:11:13.209 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-02-01 13:11:13.212 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:13.228 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:13.238 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:13.301 +03:00 [INF] Executed ViewResult - view Signup executed in 64.094ms.
+2023-02-01 13:11:13.302 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 73.7643ms
+2023-02-01 13:11:13.302 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:13.302 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 93.0900ms
+2023-02-01 13:11:15.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-02-01 13:11:15.060 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:15.060 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:15.060 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:15.064 +03:00 [INF] Executed ViewResult - view Signup executed in 4.0181ms.
+2023-02-01 13:11:15.065 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 4.6454ms
+2023-02-01 13:11:15.065 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:15.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 6.8603ms
+2023-02-01 13:11:16.493 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 247
+2023-02-01 13:11:16.494 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:16.517 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(OnlineBalance.Models.CreateUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:16.546 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:16.554 +03:00 [INF] Executed ViewResult - view Signup executed in 8.072ms.
+2023-02-01 13:11:16.554 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 36.3239ms
+2023-02-01 13:11:16.554 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:16.554 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 60.6345ms
+2023-02-01 13:11:24.621 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 250
+2023-02-01 13:11:24.621 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:24.621 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(OnlineBalance.Models.CreateUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:24.623 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:24.625 +03:00 [INF] Executed ViewResult - view Signup executed in 2.0867ms.
+2023-02-01 13:11:24.625 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 3.4588ms
+2023-02-01 13:11:24.625 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:24.625 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 250 - 200 - text/html;+charset=utf-8 4.2633ms
+2023-02-01 13:11:30.115 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 250
+2023-02-01 13:11:30.115 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:30.115 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(OnlineBalance.Models.CreateUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:30.115 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:30.117 +03:00 [INF] Executed ViewResult - view Signup executed in 1.1328ms.
+2023-02-01 13:11:30.117 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 1.6449ms
+2023-02-01 13:11:30.117 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:30.117 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 250 - 200 - text/html;+charset=utf-8 2.2430ms
+2023-02-01 13:11:36.169 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 248
+2023-02-01 13:11:36.169 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:36.169 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(OnlineBalance.Models.CreateUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:36.170 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:36.172 +03:00 [INF] Executed ViewResult - view Signup executed in 1.7221ms.
+2023-02-01 13:11:36.172 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 2.7169ms
+2023-02-01 13:11:36.172 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:36.173 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 248 - 200 - text/html;+charset=utf-8 3.8475ms
+2023-02-01 13:11:43.219 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 249
+2023-02-01 13:11:43.219 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:43.219 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(OnlineBalance.Models.CreateUserDTO, System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:11:43.219 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:11:43.220 +03:00 [INF] Executed ViewResult - view Signup executed in 1.0487ms.
+2023-02-01 13:11:43.221 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 1.544ms
+2023-02-01 13:11:43.221 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:11:43.221 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7282/Auth/Signup application/x-www-form-urlencoded 249 - 200 - text/html;+charset=utf-8 2.2147ms
+2023-02-01 13:14:34.112 +03:00 [INF] User profile is available. Using 'C:\Users\windows-hater\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-01 13:14:34.518 +03:00 [INF] Now listening on: https://localhost:7282
+2023-02-01 13:14:34.519 +03:00 [INF] Now listening on: http://localhost:5282
+2023-02-01 13:14:34.523 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-01 13:14:34.523 +03:00 [INF] Hosting environment: Development
+2023-02-01 13:14:34.523 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\OnlineBalance\
+2023-02-01 13:14:35.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/ - -
+2023-02-01 13:14:35.401 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-01 13:14:35.436 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OnlineBalance.Controllers.HomeController (OnlineBalance).
+2023-02-01 13:14:35.448 +03:00 [INF] Executing ViewResult, running view Index.
+2023-02-01 13:14:35.569 +03:00 [INF] Executed ViewResult - view Index executed in 120.4769ms.
+2023-02-01 13:14:35.573 +03:00 [INF] Executed action OnlineBalance.Controllers.HomeController.Index (OnlineBalance) in 135.7188ms
+2023-02-01 13:14:35.573 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.HomeController.Index (OnlineBalance)'
+2023-02-01 13:14:35.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/ - - - 200 - text/html;+charset=utf-8 243.6825ms
+2023-02-01 13:14:35.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-02-01 13:14:35.696 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\windows-hater\source\repos\OnlineBalance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-02-01 13:14:35.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/lib/bootstrap/dist/css/bootstrap.min.css - - - 0 162720 text/css 16.3074ms
+2023-02-01 13:14:44.822 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7282/auth/signup - -
+2023-02-01 13:14:44.825 +03:00 [INF] Executing endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:14:44.839 +03:00 [INF] Route matched with {action = "Signup", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Signup(System.String) on controller OnlineBalance.Controllers.AuthController (OnlineBalance).
+2023-02-01 13:14:44.849 +03:00 [INF] Executing ViewResult, running view Signup.
+2023-02-01 13:14:44.915 +03:00 [INF] Executed ViewResult - view Signup executed in 66.6208ms.
+2023-02-01 13:14:44.916 +03:00 [INF] Executed action OnlineBalance.Controllers.AuthController.Signup (OnlineBalance) in 76.8425ms
+2023-02-01 13:14:44.916 +03:00 [INF] Executed endpoint 'OnlineBalance.Controllers.AuthController.Signup (OnlineBalance)'
+2023-02-01 13:14:44.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7282/auth/signup - - - 200 - text/html;+charset=utf-8 94.1243ms

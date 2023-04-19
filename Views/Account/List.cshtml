@@ -1,0 +1,64 @@
+﻿@model IEnumerable<OnlineBalance.Models.Account>
+@using OnlineBalance.Tools;
+
+@{
+    User u = (User) ViewData["User"]!;
+    ViewData["Title"] = $"{u.FullName}'s accounts";
+}
+
+<h1>Hello, @u.FullName</h1>
+<h6 class="text-secondary">@u.Email | @u.BirthDate.ToString("dd/MM/yyyy")</h6>
+<h5>This page lists of your bank accounts</h5>
+
+<hr/>
+
+@if(Model.Count() == 0)
+{
+    <h5>You haven't any bank accounts yet, let's <a asp-action="Create">create new one</a></h5>
+}
+else
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    
+    @if(TempData["AccountCreationOk"] != null)
+    {
+        <p>@TempData["AccountCreationOk"]</p>
+    }
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Balance)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Currency)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Number)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Balance)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Currency)
+                    </td>
+                    <td>
+                        @StringFormatter.ReadableAccountNumber(item.Number)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Number">View details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

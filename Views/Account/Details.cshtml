@@ -1,0 +1,90 @@
+﻿@model OnlineBalance.Models.Account
+@using OnlineBalance.Models;
+@using OnlineBalance.Tools;
+
+@{
+    ViewData["Title"] = "Details";
+    List<Operation> accountOperations = (List<Operation>)ViewData["AccountOperations"];
+}
+
+<h1>Details</h1>
+
+<div>
+    <p class="text-success">@TempData["MoneyGiftProceededSuccessfully"]</p>
+    
+    <h4>Account</h4>
+
+    <div class="col">
+        <a asp-action="TransferMoney" asp-route-id="@Model.Number">Make money transfer</a>
+        |
+        <a asp-action="List">Back to List</a>
+    </div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Balance)
+        </dt>
+        <dd class = "col-sm-10">
+            @StringFormatter.ReadableAccountMoney(Model.Balance, Model.Currency)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Number)
+        </dt>
+        <dd class = "col-sm-10">
+            @StringFormatter.ReadableAccountNumber(Model.Number)
+        </dd>
+    </dl>
+</div>
+@if (accountOperations.Count() != 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Operation
+                </th>
+                <th>
+                    Amount
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    From
+                </th>
+                <th>
+                    Date
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in accountOperations)
+            {
+                <tr>
+                    <td>
+                        @if (Model.Number == item.RecipientNumber)
+                        {
+                            <span class="text-success">Replenishment</span>
+                        }
+                        else if (Model.Number == item.SenderNumber)
+                        {
+                            <span class="text-danger">Withdrawal</span>
+                        }
+                    </td>
+                    <td>
+                        @StringFormatter.ReadableAccountMoney(item.Amount, Model.Currency)
+                    </td>
+                    <td>
+                        @item.Description
+                    </td>
+                    <td>
+                        @StringFormatter.ReadableAccountNumber(item.SenderNumber)
+                    </td>
+                    <td>
+                        @item.Date.ToString("U")
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
