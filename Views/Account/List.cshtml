@@ -6,6 +6,8 @@
     ViewData["Title"] = $"{u.FullName}'s accounts";
 }
 
+<p class="text-success">@TempData["ChangePasswordSuccess"]</p>
+
 <h1>Hello, @u.FullName</h1>
 <h6 class="text-secondary">@u.Email | @u.BirthDate.ToString("dd/MM/yyyy")</h6>
 <h5>This page lists of your bank accounts</h5>

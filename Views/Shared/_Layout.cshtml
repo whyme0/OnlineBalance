@@ -2,7 +2,10 @@
 @inject UserManager<User> UserManager
 
 @{
-    User currUser = await UserManager.FindByNameAsync(User.Identity?.Name);
+    User? currUser = null;
+    if(User.Identity?.Name != null){
+        currUser = await UserManager.FindByNameAsync(User.Identity.Name);
+    }
 }
 
 <!DOCTYPE html>
@@ -33,7 +36,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         @{
-                            if (!User.Identity.IsAuthenticated)
+                            if (currUser == null)
                             {
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Signin">Sign in</a>
@@ -46,6 +49,9 @@
                             {
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Signout">Sign out</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="ChangePassword">Change password</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="List">Profile</a>

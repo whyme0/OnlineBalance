@@ -14,13 +14,15 @@ namespace OnlineBalance.Controllers
         private readonly UserMapping _mapper;
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
+        private readonly ApplicationDbContext _dbContext;
 
-        public AuthController(ILogger<AuthController> logger, UserMapping mapper, UserManager<User> userManager, SignInManager<User> signInManager)
+        public AuthController(ApplicationDbContext dbContext, ILogger<AuthController> logger, UserMapping mapper, UserManager<User> userManager, SignInManager<User> signInManager)
         {
             _logger = logger;
             _mapper = mapper;
             _userManager = userManager;
             _signInManager = signInManager;
+            _dbContext = dbContext;
         }
 
         [HttpGet]
@@ -103,6 +105,42 @@ namespace OnlineBalance.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        [Authorize]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> ChangePassword([FromForm] ChangePasswordDTO changePasswordDTO)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(changePasswordDTO);
+            }
+
+            User currUser = await _userManager.FindByNameAsync(User.Identity.Name);
+            var result = await _userManager.ChangePasswordAsync(currUser, changePasswordDTO.OldPassword, changePasswordDTO.NewPassword);
+            
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.TryAddModelError(error.Code, error.Description);
+                }
+
+                return View(changePasswordDTO);
+            }
+            else
+            {
+                await _dbContext.SaveChangesAsync();
+                TempData["ChangePasswordSuccess"] = "Your password was successfully changed";
+                return RedirectToAction("List", "Account", new {id = currUser.Id});
+            }
         }
     }
 }
