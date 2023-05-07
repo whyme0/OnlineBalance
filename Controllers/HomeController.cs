@@ -29,5 +29,11 @@ namespace OnlineBalance.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [Route("/notfound")]
+        public IActionResult ResourceNotFound()
+        {
+            return View();
+        }
     }
 }
