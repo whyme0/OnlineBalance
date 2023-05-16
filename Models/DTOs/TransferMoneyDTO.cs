@@ -8,8 +8,10 @@ namespace OnlineBalance.Models
         [Display(Name = "Recipient account's number")]
         [DataType(DataType.Text)]
         [RegularExpression(@"^[1-9][0-9]{15}$", ErrorMessage = "Incorrect format of recipient account's number")]
+        [Required]
         public long RecipientAccountNumber { get; set; }
 
+        [Required]
         public double Amount { get; set; }
 
         [DataType(DataType.Text)]

@@ -116,9 +116,9 @@ namespace OnlineBalance.Controllers
             {
                 ModelState.TryAddModelError("RecipientAccountNumber", "Account not found");
             }
-            if (recipientAccount.Currency != senderAccount.Currency)
+            if (recipientAccount?.Currency != senderAccount.Currency)
             {
-                ModelState.TryAddModelError("RecipientAccountNumbre", $"Cannot transfer money from {senderAccount.Currency} to {recipientAccount.Currency}");
+                ModelState.TryAddModelError("RecipientAccountNumbre", $"Cannot transfer money from {senderAccount.Currency} to {recipientAccount?.Currency}");
             }
 
             if (!ModelState.IsValid)

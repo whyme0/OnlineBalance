@@ -1,5 +1,5 @@
 ﻿1. 
-2. "The value '' is invalid" - at "TransferMoney" action
+2. 
 3. add JS character counter of "description" field to html page for TransferMoney form
 4. add current account's balance to transfer money page
 5. add "to" column for account operations in details cshtml
