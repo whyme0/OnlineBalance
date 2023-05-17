@@ -1,6 +1,6 @@
 ﻿1. 
 2. 
-3. add JS character counter of "description" field to html page for TransferMoney form
+3. 
 4. add current account's balance to transfer money page
 5. add "to" column for account operations in details cshtml
 6. add new method "TransferMoney" for AccountManager which takes only TemporaryOperation parameter

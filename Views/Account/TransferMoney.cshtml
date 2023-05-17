@@ -25,8 +25,9 @@
 
             <div class="form-group mb-2">
                 <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
+                <input asp-for="Description" id="descriptionInput" class="form-control" maxlength="250"/>
                 <span asp-validation-for="Description" class="text-danger"></span>
+                <span class="text-secondary" id="charCounter">You're entered 0 of 250 chars</span>
             </div>
 
             <div class="form-group">
@@ -35,3 +36,7 @@
         </form>
     </div>
 </div>
+
+@section ExtraScripts {
+    <script src="~/js/char-counter.js" inputElementId="descriptionInput" outputElementId="charCounter" maxlength="250"></script>
+}
