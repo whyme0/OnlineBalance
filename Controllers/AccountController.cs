@@ -91,7 +91,7 @@ namespace OnlineBalance.Controllers
             {
                 return NotFound();
             }
-            
+            ViewData["SenderAccount"] = senderAccount;
             return View();
         }
 
