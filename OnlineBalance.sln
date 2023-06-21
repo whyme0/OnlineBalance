@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBalance", "OnlineBalance.csproj", "{04D6628B-09B4-453A-9857-D0DA26E60B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineBalance", "OnlineBalance.csproj", "{04D6628B-09B4-453A-9857-D0DA26E60B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{A1F5250C-5862-4580-9D4B-69A2FA16FE8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{04D6628B-09B4-453A-9857-D0DA26E60B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D6628B-09B4-453A-9857-D0DA26E60B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D6628B-09B4-453A-9857-D0DA26E60B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F5250C-5862-4580-9D4B-69A2FA16FE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F5250C-5862-4580-9D4B-69A2FA16FE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F5250C-5862-4580-9D4B-69A2FA16FE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F5250C-5862-4580-9D4B-69A2FA16FE8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
