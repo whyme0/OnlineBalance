@@ -26,6 +26,9 @@ builder.Host.UseSerilog();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// urls lowercase option
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
+
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 builder.Services.AddDbContext<ApplicationDbContext>(b => 
     b.UseNpgsql(configuration.GetConnectionString("DefaultConnection"))
