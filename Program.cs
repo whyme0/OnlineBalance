@@ -8,6 +8,7 @@ using OnlineBalance.Models;
 using OnlineBalance.Mapping;
 using OnlineBalance.Data.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using EmailService;
 
 string rootPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\"));
 var builder = WebApplication.CreateBuilder(args);
@@ -49,6 +50,11 @@ builder.Services.AddIdentity<User, IdentityRole>(
     .AddErrorDescriber<CustomIdentityErrorDescriber>();
 
 builder.Services.AddScoped<UserMapping>();
+
+var emailConfiguration = builder.Configuration
+    .GetSection("EmailConfiguration")
+    .Get<EmailConfiguration>();
+builder.Services.AddSingleton(emailConfiguration);
 
 var app = builder.Build();
 
