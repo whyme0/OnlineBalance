@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using EmailService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OnlineBalance.Data;
@@ -15,14 +16,16 @@ namespace OnlineBalance.Controllers
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly ApplicationDbContext _dbContext;
+        private readonly IEmailSender _emailSender;
 
-        public AuthController(ApplicationDbContext dbContext, ILogger<AuthController> logger, UserMapping mapper, UserManager<User> userManager, SignInManager<User> signInManager)
+        public AuthController(ApplicationDbContext dbContext, ILogger<AuthController> logger, UserMapping mapper, UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
         {
             _logger = logger;
             _mapper = mapper;
             _userManager = userManager;
             _signInManager = signInManager;
             _dbContext = dbContext;
+            _emailSender = emailSender;
         }
 
         [HttpGet]
@@ -141,6 +144,76 @@ namespace OnlineBalance.Controllers
                 TempData["ChangePasswordSuccess"] = "Your password was successfully changed";
                 return RedirectToAction("List", "Account", new {id = currUser.Id});
             }
+        }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword([FromForm] ForgotPasswordDTO forgotPasswordDTO)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(forgotPasswordDTO);
+            }
+
+            var user = await _userManager.FindByEmailAsync(forgotPasswordDTO.Email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var callback = Url.Action(nameof(ResetPassword), "Auth", new { token, email = user.Email }, Request.Scheme);
+
+            var message = new Message(new string[] { user.Email }, "Reset password | OnlineBalance", callback);
+            _emailSender.SendEmail(message);
+
+            TempData["PasswordEmailRessetSentSuccessfully"] = "You successfully requested password reset link, check your email for it, please";
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult ForgotPasswordConfirmation()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string token, string email)
+        {
+            var resetPasswordDTO = new ResetPasswordDTO { Token = token, Email = email };
+            return View(resetPasswordDTO);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword([FromForm] ResetPasswordDTO resetPasswordDTO)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(resetPasswordDTO);
+            }
+
+            var user = await _userManager.FindByEmailAsync(resetPasswordDTO.Email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var resetPassResult = await _userManager.ResetPasswordAsync(user, resetPasswordDTO.Token, resetPasswordDTO.ConfirmPassword);
+            if (!resetPassResult.Succeeded)
+            {
+                foreach (var error in resetPassResult.Errors)
+                {
+                    ModelState.TryAddModelError(error.Code, error.Description);
+                }
+                return View();
+            }
+
+            return RedirectToAction(nameof(Signin));
         }
     }
 }
