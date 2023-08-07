@@ -1,8 +1,7 @@
-﻿1. 
+﻿1. "Invalid email or Password" message at sign in view should be changed to "Invalid email or password"
 2. 
 3. 
-4. 
+4. print on the signin message about successfully password recovery, if so
 5. add "to" column for account operations in details cshtml
 6. add new method "TransferMoney" for AccountManager which takes only TemporaryOperation parameter
 7. email confirmation
-8. password recovery
