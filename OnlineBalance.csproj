@@ -4,6 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +25,11 @@
 
   <ItemGroup>
     <Folder Include="Logging\" />
+  </ItemGroup>
+  
+	  
+  <ItemGroup>
+    <ProjectReference Include="EmailService\EmailService.csproj" />
   </ItemGroup>
 
 </Project>
