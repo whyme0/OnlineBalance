@@ -6,6 +6,9 @@
 # Logging
 Logging/
 
+# OnlineBalance secret configurations
+appsettings-Email.json
+
 # User-specific files
 *.rsuser
 *.suo
