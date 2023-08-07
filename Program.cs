@@ -12,6 +12,10 @@ using EmailService;
 
 string rootPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\"));
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.ConfigureAppConfiguration((h, c) =>
+{
+    c.AddJsonFile("appsettings-Email.json", optional: true, reloadOnChange: true);
+});
 var configuration = builder.Configuration;
 
 // Logging
@@ -30,10 +34,13 @@ builder.Services.AddControllersWithViews();
 // urls lowercase option
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
+// Postgress Options
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 builder.Services.AddDbContext<ApplicationDbContext>(b => 
     b.UseNpgsql(configuration.GetConnectionString("DefaultConnection"))
 );
+
+// AUTH, IDENTITY
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication()
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
@@ -47,14 +54,25 @@ builder.Services.AddIdentity<User, IdentityRole>(
         o.User.RequireUniqueEmail = true;
     })
     .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddErrorDescriber<CustomIdentityErrorDescriber>();
+    .AddErrorDescriber<CustomIdentityErrorDescriber>()
+    .AddDefaultTokenProviders();
+builder.Services.Configure<DataProtectionTokenProviderOptions>(options => options.TokenLifespan = TimeSpan.FromMinutes(5));
 
+// Mapping
 builder.Services.AddScoped<UserMapping>();
 
-var emailConfiguration = builder.Configuration
+// Inject Emailing service
+var emailConfiguration = configuration
     .GetSection("EmailConfiguration")
     .Get<EmailConfiguration>();
 builder.Services.AddSingleton(emailConfiguration);
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+
+//######################################
+//######################################
+//#############   APP   ################
+//######################################
+//######################################
 
 var app = builder.Build();
 
