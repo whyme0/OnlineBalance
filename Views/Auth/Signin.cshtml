@@ -9,6 +9,11 @@
     <div class="text-success">@TempData["RegistrationOk"]</div>
 }
 
+@if (TempData["PasswordRessetSuccessMessage"] != null)
+{
+    <div class="text-success">@TempData["PasswordRessetSuccessMessage"]</div>
+}
+
 
 <h1>Sign in</h1>
 

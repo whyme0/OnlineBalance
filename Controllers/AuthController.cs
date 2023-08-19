@@ -172,6 +172,7 @@ namespace OnlineBalance.Controllers
             var message = new Message(new string[] { user.Email }, "Reset password | OnlineBalance", callback);
             _emailSender.SendEmail(message);
 
+            await _signInManager.SignOutAsync();
             TempData["PasswordEmailRessetSentSuccessfully"] = "You successfully requested password reset link, check your email for it, please";
             return View();
         }
@@ -213,6 +214,7 @@ namespace OnlineBalance.Controllers
                 return View();
             }
 
+            TempData["PasswordRessetSuccessMessage"] = "You're password was successfully recovered, now you can login";
             return RedirectToAction(nameof(Signin));
         }
     }
