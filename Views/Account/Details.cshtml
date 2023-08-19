@@ -53,6 +53,9 @@
                     From
                 </th>
                 <th>
+                    To
+                </th>
+                <th>
                     Date
                 </th>
             </tr>
@@ -79,6 +82,9 @@
                     </td>
                     <td>
                         @StringFormatter.ReadableAccountNumber(item.SenderNumber)
+                    </td>
+                    <td>
+                        @StringFormatter.ReadableAccountNumber(item.RecipientNumber)
                     </td>
                     <td>
                         @item.Date.ToString("U")

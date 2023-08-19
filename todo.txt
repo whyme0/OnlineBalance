@@ -2,6 +2,6 @@
 2. 
 3. 
 4. 
-5. add "to" column for account operations in details cshtml
+5. 
 6. add new method "TransferMoney" for AccountManager which takes only TemporaryOperation parameter
 7. email confirmation
