@@ -99,7 +99,8 @@ namespace OnlineBalance.Controllers
             if (senderAccount == null || await GetAuthorizedUser() != senderAccount.User)
                 return NotFound();
 
-            Account? recipientAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == transferMoneyDTO.RecipientAccountNumber);
+            long recipAccNum = Convert.ToInt64(transferMoneyDTO.RecipientAccountNumber.ToString().Replace(" ", ""));
+            Account? recipientAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == recipAccNum);
 
             if (senderAccount.Balance < transferMoneyDTO.Amount)
             {

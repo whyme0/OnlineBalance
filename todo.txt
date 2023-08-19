@@ -1,4 +1,4 @@
-﻿1. at TransferMoney.cshtml on form's RecipientAccountNumber field make avaliable enter number with spaces
+﻿1. 
 2. 
 3. 
 4. 

@@ -15,7 +15,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="RecipientAccountNumber" class="control-label"></label>
-                <input asp-for="RecipientAccountNumber" class="form-control" required />
+                <input asp-for="RecipientAccountNumber" class="form-control" required id="recipAccNum"/>
                 <span asp-validation-for="RecipientAccountNumber" class="text-danger"></span>
             </div>
 
@@ -33,7 +33,7 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary"/>
             </div>
         </form>
     </div>
@@ -41,4 +41,5 @@
 
 @section ExtraScripts {
     <script src="~/js/char-counter.js" inputElementId="descriptionInput" outputElementId="charCounter" maxlength="250"></script>
+    <script src="~/js/transfer-money.js"></script>
 }
