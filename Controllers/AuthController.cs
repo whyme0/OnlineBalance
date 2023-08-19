@@ -85,13 +85,13 @@ namespace OnlineBalance.Controllers
             }
             catch (NullReferenceException e)
             {
-                ModelState.AddModelError("", "Invalid email or Password");
+                ModelState.AddModelError("", "Invalid email or password");
                 return View(userDTO);
             }
 
             if (!result.Succeeded)
             {
-                ModelState.AddModelError("", "Invalid email or Password");
+                ModelState.AddModelError("", "Invalid email or password");
                 return View(userDTO);
             }
 
