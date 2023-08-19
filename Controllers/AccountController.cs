@@ -44,10 +44,8 @@ namespace OnlineBalance.Controllers
             Account? account = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == id);
             
             if (account == null || await GetAuthorizedUser() != account.User)
-            {
                 return NotFound();
-            }
-            
+
             ViewData["AccountOperations"] = await _dbContext.Operations.Where(o => o.SenderNumber == account.Number || o.RecipientNumber == account.Number).ToListAsync();
             return View(account);
         }
@@ -66,9 +64,7 @@ namespace OnlineBalance.Controllers
         public async Task<IActionResult> Create([FromForm] CreateAccountDTO accountDTO)
         {
             if (!ModelState.IsValid)
-            {
                 return View(accountDTO);
-            }
 
             var user = await GetAuthorizedUser();
             Account account = new Account() { Balance = 0, Currency = accountDTO.Currency, User = user };
@@ -152,10 +148,8 @@ namespace OnlineBalance.Controllers
             var usr = await GetAuthorizedUser();
 
             if (temporaryOperation == null || senderAccount.User != usr)
-            {
                 return NotFound();
-            }
-            
+
             // https://localhost:7282/accounts/confirm-money-transfer/54dc5bbe-e658-42ad-8177-c060c38ef096
             ViewData["tempOperation"] = temporaryOperation;
             ViewData["RecipientFullName"] = recipientUser.FullName;
@@ -171,16 +165,19 @@ namespace OnlineBalance.Controllers
         public async Task<IActionResult> ConfirmMoneyTransferPOST(Guid id)
         {
             TemporaryOperation? temporaryOperation = await _dbContext.TemporaryOperations.FirstOrDefaultAsync(t => t.Id == id);
+            if (temporaryOperation == null)
+                return NotFound();
+            
             var usr = await GetAuthorizedUser();
+
+            // sender and recipient wont validate for null here, due to null validation at TransferMoney method
             Account senderAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == temporaryOperation.SenderNumber);
             Account recipientAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == temporaryOperation.RecipientNumber);
 
             if (temporaryOperation == null || senderAccount.User != usr)
-            {
                 return NotFound();
-            }
 
-            var operation = AccountManager.TransferMoney(senderAccount, recipientAccount, temporaryOperation.Amount, temporaryOperation.Description);
+            var operation = await AccountManager.TransferMoney(temporaryOperation, _dbContext);
 
             _dbContext.TemporaryOperations.Remove(temporaryOperation);
             await _dbContext.Operations.AddAsync(operation);
@@ -200,11 +197,9 @@ namespace OnlineBalance.Controllers
             TemporaryOperation? tempOperation = await _dbContext.TemporaryOperations.FindAsync(id);
             var usr = await GetAuthorizedUser();
             Account? senderAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == tempOperation.SenderNumber);
-            
+
             if (tempOperation == null || senderAccount?.User != usr)
-            {
                 return NotFound();
-            }
 
             _dbContext.Remove(tempOperation);
             await _dbContext.SaveChangesAsync();
@@ -235,9 +230,8 @@ namespace OnlineBalance.Controllers
             var usr = await GetAuthorizedUser();
             
             if (account == null || account.User != usr)
-            {
                 return NotFound();
-            }
+
 
             account.Balance += 1000;
             usr.IsGotMoneyGift = true;
