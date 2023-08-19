@@ -1,5 +1,5 @@
-﻿1. 
-2. 
+﻿1. at TransferMoney.cshtml prohibit entry of non-positive amounts
+2. at TransferMoney.cshtml prohibit entry RecipientNumber same as SenderNumber
 3. 
 4. 
 5. 
