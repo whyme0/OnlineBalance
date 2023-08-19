@@ -46,7 +46,7 @@ namespace OnlineBalance.Controllers
             if (account == null || await GetAuthorizedUser() != account.User)
                 return NotFound();
 
-            ViewData["AccountOperations"] = await _dbContext.Operations.Where(o => o.SenderNumber == account.Number || o.RecipientNumber == account.Number).ToListAsync();
+            ViewData["AccountOperations"] = await _dbContext.Operations.Where(o => o.SenderNumber == account.Number || o.RecipientNumber == account.Number).OrderByDescending(x => x.Date).ToListAsync();
             return View(account);
         }
 
@@ -84,9 +84,8 @@ namespace OnlineBalance.Controllers
         {
             Account? senderAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == id);
             if (senderAccount == null || await GetAuthorizedUser() != senderAccount.User)
-            {
                 return NotFound();
-            }
+
             ViewData["SenderAccount"] = senderAccount;
             return View();
         }
@@ -98,9 +97,7 @@ namespace OnlineBalance.Controllers
         {
             Account? senderAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == id);
             if (senderAccount == null || await GetAuthorizedUser() != senderAccount.User)
-            {
                 return NotFound();
-            }
 
             Account? recipientAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == transferMoneyDTO.RecipientAccountNumber);
 
