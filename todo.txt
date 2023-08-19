@@ -1,5 +1,5 @@
-﻿1. 
-2. 
+﻿1. at TransferMoney.cshtml on form's RecipientAccountNumber field make avaliable enter number with spaces 
+2. at Details.cshtml order operations from new to old
 3. 
 4. 
 5. 
