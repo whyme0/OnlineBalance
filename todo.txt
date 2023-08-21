@@ -1,6 +1,6 @@
 ﻿1. at TransferMoney.cshtml prohibit entry of non-positive amounts
 2. at TransferMoney.cshtml prohibit entry RecipientNumber same as SenderNumber
-3. 
+3. "Go back" button at transfer money confirmation refers to some incorrect place
 4. 
 5. 
 6. 
