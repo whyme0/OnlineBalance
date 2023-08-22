@@ -118,6 +118,10 @@ namespace OnlineBalance.Controllers
             {
                 ModelState.TryAddModelError("RecipientAccountNumbre", $"Cannot transfer money from {senderAccount.Currency} to {recipientAccount?.Currency}");
             }
+            if (recipientAccount == senderAccount)
+            {
+                ModelState.TryAddModelError("RecipientAccountNumber", "The recipient's account cannot be the sender's account.");
+            }
             if (!ModelState.IsValid)
             {
                 return View(transferMoneyDTO);

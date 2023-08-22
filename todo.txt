@@ -1,5 +1,5 @@
 ﻿1. 
-2. at TransferMoney.cshtml prohibit entry RecipientNumber same as SenderNumber
+2. 
 3. "Go back" button at transfer money confirmation refers to some incorrect place
 4. 
 5. 
