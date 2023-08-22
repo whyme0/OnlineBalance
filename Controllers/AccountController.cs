@@ -98,7 +98,11 @@ namespace OnlineBalance.Controllers
             Account? senderAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == id);
             if (senderAccount == null || await GetAuthorizedUser() != senderAccount.User)
                 return NotFound();
-
+            ViewData["SenderAccount"] = senderAccount;
+            
+            if (!ModelState.IsValid)
+                return View(transferMoneyDTO);
+            
             long recipAccNum = Convert.ToInt64(transferMoneyDTO.RecipientAccountNumber.ToString().Replace(" ", ""));
             Account? recipientAccount = await _dbContext.Accounts.FirstOrDefaultAsync(a => a.Number == recipAccNum);
 
