@@ -2,7 +2,7 @@
 OnlineBalance - open-source banking Web App for financial management
 
 # Requirements
-* .NET Core 6
+* .NET Core 8
 * PostgreSQL
 
 # Setup
