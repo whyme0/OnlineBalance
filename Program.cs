@@ -12,10 +12,7 @@ using EmailService;
 
 string rootPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\"));
 var builder = WebApplication.CreateBuilder(args);
-builder.Host.ConfigureAppConfiguration((h, c) =>
-{
-    c.AddJsonFile("appsettings-Email.json", optional: true, reloadOnChange: true);
-});
+builder.Configuration.AddJsonFile("appsettings-Email.json", optional: true, reloadOnChange: true);
 var configuration = builder.Configuration;
 
 // Logging
