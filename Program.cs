@@ -44,6 +44,7 @@ builder.Services.AddAuthentication()
             {
                 o.LoginPath = "/auth/signin";
             });
+
 builder.Services.AddIdentity<User, IdentityRole>(
     o =>
     {
@@ -89,6 +90,12 @@ app.Use(async (context, next) =>
         await next();
     }
 });
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<DbContext>();
+    await dbContext.Database.MigrateAsync();
+}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
