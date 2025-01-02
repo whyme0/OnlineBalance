@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Serilog;
 using Serilog.Events;
-using Serilog.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using OnlineBalance.Data;
 using OnlineBalance.Models;
