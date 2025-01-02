@@ -7,7 +7,7 @@ namespace OnlineBalance.Data.Identity
         public override IdentityError DuplicateUserName(string userName)
         {
             var error = base.DuplicateUserName(userName);
-            error.Description = "This email is now allowed.";
+            error.Description = "This email is not allowed.";
             return error;
         }
     }
